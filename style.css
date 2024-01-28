@@ -60,3 +60,39 @@
 
   flex: 1;
 }
+
+.rando {
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin: 0;
+  padding: 25px;
+}
+
+.enclose {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 280px;
+}
+
+.contain {
+
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.block {
+
+  flex-basis: 210px;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+}
+
+.contain p {
+
+  text-align: center;
+}

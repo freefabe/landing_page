@@ -118,12 +118,44 @@
 
 .call {
 
-  padding: 50px 250px;
-  display: flex;
-  justify-content: space-between;
+  border-radius: 10px;
+  padding: 50px 200px;
 }
 
-.call div {
+.centre {
 
   background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  padding: 30px 0;
+}
+
+.butcon {
+
+  align-self: center;
+}
+
+.butcon button {
+
+  background-color: #3882F6;
+  width: 120px;
+  height: 35px;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  border: solid 2px white;
+}
+
+.start p {
+
+  color: white;
+  margin: 0;
+}
+
+.start .action {
+
+  font-size: 20px;
+  font-weight: bold;
 }

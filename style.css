@@ -1,8 +1,12 @@
-.header {
+.header, .footer{
 
-  background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
+  background-color: #1F2937;
+}
+
+.header {
+
   justify-content: end;
   gap: 25px;
   padding: 10px 200px;
@@ -158,4 +162,11 @@
 
   font-size: 20px;
   font-weight: bold;
+}
+
+.footer {
+
+  align-content: center;
+  justify-content: center;
+  padding: 13px 0;
 }

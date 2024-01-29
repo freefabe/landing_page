@@ -36,6 +36,11 @@
   color: #F9FAF8;
 }
 
+#sub {
+
+  margin-bottom: 10px;
+}
+
 .hero button {
 
   background-color: #3882F6;
@@ -95,4 +100,30 @@
 .contain p {
 
   text-align: center;
+}
+
+.quote {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0 300px;
+  background-color: #E5E7EB;
+}
+
+.thor {
+
+  align-self: end;
+}
+
+
+.call {
+
+  padding: 50px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call div {
+
+  background-color: #3882F6;
 }
